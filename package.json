@@ -6,7 +6,7 @@
     "private": false,
     "repository": {
         "type": "git",
-        "url": "https://gitlab.squadra.com.br/FAB-SEFAZ-MT/pgf-fe"
+        "url": "https://github.com/isaiasbfranca/teste-amcom"
     },
     "license": "MIT",
     "dependencies": {
