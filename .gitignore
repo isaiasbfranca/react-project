@@ -1,0 +1,8 @@
+.project
+.settings/
+.vscode/
+node_modules/
+.idea
+yarn.lock
+react-app-env.d.ts
+build/

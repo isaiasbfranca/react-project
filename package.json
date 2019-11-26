@@ -1,0 +1,64 @@
+{
+    "name": "amcom-test",
+    "version": "1.0.0",
+    "description": "Teste react AMcom",
+    "homepage": "/",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.squadra.com.br/FAB-SEFAZ-MT/pgf-fe"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "babel-polyfill": "^6.26.0",
+        "chart.js": "^2.4.0",
+        "classnames": "^2.2.5",
+        "flux": "^3.1.3",
+        "fullcalendar": "4.0.0-alpha",
+        "i18n-js": "^3.2.1",
+        "mask-js": "^2.1.0",
+        "mobx": "^5.9.0",
+        "mobx-react": "^5.4.3",
+        "moment": "^2.17.1",
+        "node-sass": "^4.11.0",
+        "node-sass-chokidar": "^1.3.0",
+        "primeflex": "1.0.0-rc.1",
+        "primeicons": "1.0.0-beta.10",
+        "primereact": "^3.3.2",
+        "quill": "^1.3.1",
+        "react": "^16.8.3",
+        "react-dom": "^16.8.3",
+        "react-router-dom": "^4.3.1",
+        "react-transition-group": "^2.6.0",
+        "universal-cookie": "^3.1.0",
+        "whatwg-fetch": "^3.0.0"
+    },
+    "devDependencies": {
+        "npm-run-all": "^4.1.5",
+        "react-scripts": "^2.1.8"
+    },
+    "scripts": {
+        "start": "npm-run-all -p start-js",
+        "start-dsv": "npm-run-all -p start-js-dsv",
+        "start-hmg": "npm-run-all -p start-js-hmg",
+        "start-prd": "npm-run-all -p start-js-prd",
+        "build": "npm-run-all build-js",
+        "build-dsv": "npm-run-all build-js-dsv",
+        "build-hmg": "npm-run-all build-js-hmg",
+        "build-prd": "npm-run-all build-js-prd",
+        "start-js": "react-scripts start",
+        "start-js-dsv": "REACT_APP_STAGE=dsv react-scripts start",
+        "start-js-hmg": "REACT_APP_STAGE=hmg react-scripts start",
+        "start-js-prd": "REACT_APP_STAGE=prd react-scripts start",
+        "build-js": "react-scripts build",
+        "build-js-dsv": "REACT_APP_STAGE=dsv react-scripts build",
+        "build-js-hmg": "REACT_APP_STAGE=hmg react-scripts build",
+        "build-js-prd": "REACT_APP_STAGE=prd react-scripts build"
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}

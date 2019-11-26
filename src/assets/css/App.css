@@ -1,0 +1,297 @@
+
+html,
+body,
+#root {
+    height: 97% !important;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* body {
+    background: url(../img);
+} */
+
+.required::before {
+    content: '* ';
+    color: red;
+}
+
+.layout-main {
+    padding-top: 16px !important;
+}
+
+.label-form {
+    text-align: right !important;
+}
+
+.label-bold {
+    font-weight: bold !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.body{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.titulo {
+    border-bottom: 2px solid #d6d6d6;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #336699;
+}
+
+.menu {
+    background: #efefef;
+    margin-top: -1px;
+}
+
+.menu .p-menubar {
+    border: 0;
+    background: #efefef;
+    font-size: 14px;
+}
+
+.menu .p-menuitem-link:hover {
+    background: #ddd !important;
+}
+
+.menu .p-menubar .p-submenu-icon {
+    font-size: 12px;
+}
+
+/*======= LOADING =======*/
+
+.modal-loader {
+    background: #00000029;
+    justify-content: center;
+    align-items: center;
+    z-index: 1060;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.modal-loader .modal-dialog {
+    width: 66px;
+}
+
+.modal-loader .modal-content {
+    background-color: #1c347e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 35px;
+    border-radius: 5px;
+}
+
+/* ========== PrimeReact ==========*/
+.ui-inputtext {
+    padding: 0.2em 0.429em;
+}
+
+body .p-component {
+    font-size: 12px;
+}
+
+body .ui-toast .ui-toast-message {
+    margin: 0;
+}
+
+body .ui-table .ui-table-thead > tr > th {
+    padding: 0.25rem;
+}
+
+body .ui-widget {
+    font-size: 12px;
+}
+
+.ui-dropdown .ui-dropdown-label {
+    padding-top: 0 !important;
+}
+
+fieldset.form-fieldset {
+    border-radius: 5px;
+    border: 1px solid #6c757d;
+    padding: 0 1.4em 1.4em 1.4em;
+}
+
+.p-fieldset-legend {
+    font-size: 14px;
+    text-align: left;
+    width: auto;
+    padding: 0 10px;
+    border-bottom: none;
+    color: #336699;
+    font-weight: 600;
+}
+
+.font-weight-bold,
+.p-panel-title {
+    font-weight: 600 !important;
+}
+
+.label-center {
+    padding-top: calc(0.375rem + 6px);
+    padding-bottom: calc(0.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+body .p-datatable .p-datatable-tbody > tr.p-highlight {
+    background-color: #d1ebff;
+    color: #000;
+}
+
+body .p-datatable .p-datatable-tbody > tr {
+    background: #ffffff;
+    color: #333333;
+    text-align: center;
+}
+
+body .p-datatable .p-datatable-thead > tr > th {
+    text-align: center !important;
+}
+
+body .p-button {
+    background-color: #336699;
+    border: 1px solid #336699;
+}
+
+body .p-panel .p-panel-content {
+    margin-bottom: 10px;
+}
+
+.p-growl {
+    word-break: break-word;
+    line-break: normal;
+    width: 500px;
+}
+
+.p-inputtext {
+    width: 100%;
+}
+
+.p-col-2-5 {
+    padding: 0.5em;
+    width: 20%;
+}
+
+.p-button-filtro {
+    margin-top: 0.5em;
+    padding: 1.3%;
+}
+
+.p-button-table {
+    padding-right: 64px;
+    margin-top: -15px;
+}
+
+.p-button-icon {
+    color: #007ad9 !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    font-size: 14px !important;
+}
+
+body .p-panel .p-panel-titlebar {
+    border: 1px solid #336699;
+    background-color: #336699;
+    color: #ffffff;
+}
+
+body .p-paginator .p-dropdown .p-dropdown-trigger, body .p-paginator .p-dropdown .p-dropdown-label {
+    color: #848484;
+    border: solid 1px;
+    padding: 4px;
+}
+
+.p-col-chaveAcesso {
+    width: 27em;
+}
+
+.p-col-tipoDocumento {
+    padding: 0.5em;
+}
+
+.p-col-search{
+    padding: 0.5em;
+    margin-top: -0.5em;
+}
+
+.dropdown-width {
+    width: 100% !important
+}
+
+.w-7 {
+    width: 7% !important;
+}
+
+.w-10 {
+    width: 10%;
+    margin-top: 5px;
+}
+
+.w-11 {
+    width: 11%;
+    margin-top: 5px;
+}
+
+.w-12-2 {
+    width: 12.2% !important;
+}
+
+.w-14 {
+    width: 14% !important;
+}
+
+
+.w-44 {
+    width: 44%;
+}
+
+.space {
+	margin-left: 0.6em;
+}
+.item {
+    flex: 1;
+    margin: 7px;
+    width: 90px;
+}
+
+.hidden {
+    display: none;
+}
+
+.input {
+    padding: 5px;
+}
+
+.radioButtonPadding {
+    padding: 0px 0px 0px 10px;
+}
+
+.bodyCenter {
+    padding-top: 2%;
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-fieldset {
+    border: 1px solid #c8c8c8;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 3px;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    padding-top: 35px;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Teste AMcom",
+    "short_name": "AMcom",
+    "display": "standalone",
+    "orientation": "any",
+    "lang": "Portuguese",
+    "start_url": "/index.html",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "icons": [
+        {
+            "src": "favicon.icon",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "darth-vader.png",
+            "sizes": "512x512"
+        }
+    ]
+}
