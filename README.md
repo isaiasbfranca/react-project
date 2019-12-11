@@ -1,4 +1,4 @@
-# Teste React AMcom
+# Projeto React
 
 Antes de rodar o codigo:
 
