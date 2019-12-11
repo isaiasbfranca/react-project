@@ -1,12 +1,12 @@
 {
-    "name": "amcom-test",
+    "name": "react-project",
     "version": "1.0.0",
-    "description": "Teste react AMcom",
+    "description": "React Project",
     "homepage": "/",
     "private": false,
     "repository": {
         "type": "git",
-        "url": "https://github.com/isaiasbfranca/teste-amcom"
+        "url": "https://github.com/isaiasbfranca/react-project"
     },
     "license": "MIT",
     "dependencies": {
