@@ -20,7 +20,7 @@
         "mobx": "^5.9.0",
         "mobx-react": "^5.4.3",
         "moment": "^2.17.1",
-        "node-sass": "^4.11.0",
+        "node-sass": "^7.0.0",
         "node-sass-chokidar": "^1.3.0",
         "primeflex": "1.0.0-rc.1",
         "primeicons": "1.0.0-beta.10",
